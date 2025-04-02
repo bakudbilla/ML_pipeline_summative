@@ -13,6 +13,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from database import collection
 from model import train_model, load_existing_model
 from model import train_model  
+from fastapi.middleware.cors import CORSMiddleware
+
 
 # Load trained model
 MODEL_PATH = os.path.abspath("../models/obesity_model.h5")
@@ -35,6 +37,19 @@ class ObesityInput(BaseModel):
     PhysicalActivityLevel: float
 
 app = FastAPI()
+
+
+origins = [
+    "http://localhost:5173",  
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  
+    allow_credentials=True,
+    allow_methods=["*"],  
+    allow_headers=["*"],  
+)
 @app.get("/")
 def welcome():
     return {"message": "Welcome to Obesi-Check"}
