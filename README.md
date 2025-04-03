@@ -120,7 +120,23 @@ This will start the server locally at: **http://localhost:8000**
 
 ---
 
-## How to Use the App
+
+### To Docker;
+
+1. **Build the Docker image**:
+   ```bash
+   docker build -t obesityapp .
+Run the container:
+
+bash
+```
+docker run -p 8000:8000 --env-file .env --name obesicheck-container obesityapp
+```
+Access the application:
+```
+http://localhost:8000
+```
+## How to Use the Obesi Check App
 
 ### **Prediction**
 1. Navigate to the **Prediction Page**.
