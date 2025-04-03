@@ -3,6 +3,8 @@
 ## Overview
 **ObesiCHECK** is a machine learning web application designed to help individuals monitor their weight levels and track their obesity category. The app classifies users into four categories: Normal weight, Overweight, Obese, and Underweight.
 
+![Image](https://github.com/user-attachments/assets/b815bfc2-0af4-4e1a-b4ae-c9288b62ff27)
+
 ### Key Features:
 - **Prediction Based on User Input:**
   - The app predicts the obesity category based on user input, which includes:
