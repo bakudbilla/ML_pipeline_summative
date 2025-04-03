@@ -74,12 +74,23 @@ Diabetes_Prediction-ML_Pipeline_Summative/
 
 ---
 
+
+---
+
 ## Deployment
-The ObesiCheck app can be accessed blow:
-**[FASTAPI  URL](https://obesity-app-latest.onrender.com/)**
+
+You can access the live web app here:  
 **[Live Web App URL](https://obesity-app-latest.onrender.com/)**
 
 ---
+
+## Setup Instructions
+
+### Step 1: Clone the Repository
+Clone the project repository to your local machine:
+```sh
+git clone https://github.com/bakudbilla/ML_pipeline_summative.git
+cd ML_pipeline_summative.git
 
 ## Setup Instructions
 
