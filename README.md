@@ -79,10 +79,10 @@ Diabetes_Prediction-ML_Pipeline_Summative/
 
 ## Deployment
 
-You can access the live web app here:  
-https://obesity-app-latest.onrender.com
-FastApi was also deployed on render;
-https://ml-pipeline-summative-03ve.onrender.com
+- You can access the live web app here:  
+      https://obesity-app-latest.onrender.com
+- FastApi was also deployed on render;
+    https://ml-pipeline-summative-03ve.onrender.com
 
 ---
 
