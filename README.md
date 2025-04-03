@@ -1,30 +1,49 @@
 # ObesiCHECK
 
+# ObesiCHECK
+
 ## Overview
-ObesiCHeck is a machine Learning web application that helps individual monitor their weight levels by regularly checking their obesity category to ensure that they are to maintain their weight. This model classifies into Normal weight, Obese, Overweight and Underweight.
+**ObesiCHECK** is a machine learning web application designed to help individuals monitor their weight levels and track their obesity category. The app classifies users into four categories: Normal weight, Overweight, Obese, and Underweight.
 
-- This application makes prediction based on individuals input data such as weight,age,height BMI and  physical Activity Level.
-- Upload dataset and then sends to a mongoDB database , the model fetches data from the mongoDB to make predictions.
+### Key Features:
+- **Prediction Based on User Input:**
+  - The app predicts the obesity category based on user input, which includes:
+    - **Gender** (Male/Female)
+    - **Age**
+    - **Height** (cm)
+    - **Weight** (kg)
+    - **BMI** (automatically calculated based on weight and height)
+    - **Physical Activity Level** (ranging from 1 to 4)
 
-  - The ObesiCheck app is built using **FastAPI** for the backend, which serves the model predictions, and **React** for the frontend. Users can upload data in CSV format to retrain the 
- model.
- - The Obesi-Check app was dockerised and then deployed on render
+- **Dataset Upload for Model Retraining:**
+  - Users can upload a CSV file containing obesity-related data.
+  - The system can retrain the machine learning model using the new data, improving its predictions.
+
+### Tech Stack:
+- **Backend:** FastAPI
+- **Frontend:** React
+- **Database:** MongoDB
+- **Deployment:** Render (Dockerized)
+
 ---
 
 ## Features
-- **User Input for Predictions:**
-  - Gender: Male/Female
-  - Age
-  - Height(cm)
-  - Weight(Kg)
-  - BMI (Body Mass Index) it automatically calculates when weight and height values are entered
-  - Physical activity Level which ranges from 1 to 4
-  
 
-- **Dataset Upload for Model Retraining:**
-  - Users can upload a CSV file containing obesity data.
-  - Option to trigger automatic model retraining.
-  - The system retrains the model based on data fetched from mongoDB.
+### 1. **User Input for Predictions**
+   Users can input personal data to get predictions about their obesity category:
+   - **Gender**
+   - **Age**
+   - **Height** (cm)
+   - **Weight** (kg)
+   - **BMI** (calculated automatically)
+   - **Physical Activity Level** (1 to 4)
+
+### 2. **Dataset Upload for Model Retraining**
+   - Users can upload a **CSV file** containing obesity-related data.
+   - The system offers an option to retrain the machine learning model with the newly uploaded data.
+
+---
+
 
 ---
 
@@ -59,7 +78,8 @@ Diabetes_Prediction-ML_Pipeline_Summative/
 
 ## Deployment
 The ObesiCheck app can be accessed blow:
-**[Live Web App URL]([https://diabetes-prediction-web-7f1ucunhx-carolines-projects-083a3393.vercel.app](https://obesity-app-latest.onrender.com/)/)**
+**[FASTAPI  URL](https://obesity-app-latest.onrender.com/)**
+**[Live Web App URL](https://obesity-app-latest.onrender.com/)**
 
 ---
 
@@ -68,8 +88,8 @@ The ObesiCheck app can be accessed blow:
 ### Step 1: Clone the Repository
 Clone the project repository to your local machine using the following command:
 ```sh
-git clone https://github.com/cgyireh1/diabetes-prediction-web-app.git
-cd diabetes-prediction-web-app
+ git clone https://github.com/bakudbilla/ML_pipeline_summative.git
+cd ML_pipeline_summative.git
 ```
 
 ### Step 2: Set Up a Virtual Environment
@@ -122,9 +142,3 @@ Watch a demo of the application here: **[YouTube Link](https://youtu.be/Iv6v0MZT
 
 ## License
 This project is licensed under the **MIT License**.
-
----
-
-## Contact
-For any inquiries, please reach out via GitHub or email the project maintainers.
-
