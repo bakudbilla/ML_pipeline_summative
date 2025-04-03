@@ -121,17 +121,17 @@ This will start the server locally at: **http://localhost:8000**
 ---
 
 
-### To Docker;
+### To RunDocker;
 
 1. **Build the Docker image**:
    ```
    docker build -t obesityapp .
-Run the container:
+2. Run the container:
 
 ```
 docker run -p 8000:8000 --env-file .env --name obesicheck-container obesityapp
 ```
-Access the application:
+3. Access the application:
 ```
 http://localhost:8000
 ```
