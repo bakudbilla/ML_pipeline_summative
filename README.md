@@ -25,8 +25,6 @@
 - **Database:** MongoDB
 - **Deployment:** Render (Dockerized)
 
----
-
 ## Features
 
 ### 1. **User Input for Predictions**
@@ -42,10 +40,6 @@
    - Users can upload a **CSV file** containing obesity-related data.
    - The system offers an option to retrain the machine learning model with the newly uploaded data.
 
----
-
-
----
 
 ## Project Structure
 ```
