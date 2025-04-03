@@ -6,9 +6,9 @@ ObesiCHeck is a machine Learning web application that helps individual monitor t
 - This application makes prediction based on individuals input data such as weight,age,height BMI and  physical Activity Level.
 - Upload dataset and then sends to a mongoDB database , the model fetches data from the mongoDB to make predictions.
 
- The ObesiCheck app is built using **FastAPI** for the backend, which serves the model predictions, and **React** for the frontend. Users can upload data in CSV format to retrain the 
+  - The ObesiCheck app is built using **FastAPI** for the backend, which serves the model predictions, and **React** for the frontend. Users can upload data in CSV format to retrain the 
  model.
- The Obesi-Check app was dockerised and then deployed on render
+ - The Obesi-Check app was dockerised and then deployed on render
 ---
 
 ## Features
