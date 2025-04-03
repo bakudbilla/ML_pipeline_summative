@@ -95,14 +95,6 @@ Clone the project repository to your local machine:
 ```sh
 git clone https://github.com/bakudbilla/ML_pipeline_summative.git
 cd ML_pipeline_summative.git
-
-## Setup Instructions
-
-### Step 1: Clone the Repository
-Clone the project repository to your local machine using the following command:
-```sh
- git clone https://github.com/bakudbilla/ML_pipeline_summative.git
-cd ML_pipeline_summative.git
 ```
 
 ### Step 2: Set Up a Virtual Environment
