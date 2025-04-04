@@ -150,7 +150,7 @@ http://localhost:8000
 ---
 
 ## Video Demo
-Watch a demo of the application here:https://youtu.be/hxNIettvLHg?si=Kc0z3ruHc5KM_AGf
+Watch a demo of the application here: https://youtu.be/hxNIettvLHg?si=Kc0z3ruHc5KM_AGf
 
 ---
 
