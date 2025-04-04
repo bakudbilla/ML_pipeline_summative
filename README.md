@@ -150,7 +150,7 @@ http://localhost:8000
 ---
 
 ## Video Demo
-Watch a demo of the application here:https://drive.google.com/drive/folders/1pQr873E7fplthwp7jjomUvMqfvyj-NwN?usp=drive_link
+Watch a demo of the application here:https://youtu.be/hxNIettvLHg?si=Kc0z3ruHc5KM_AGf
 
 ---
 
